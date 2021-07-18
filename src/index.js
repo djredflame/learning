@@ -12,8 +12,14 @@ const nora = new Car(`Nora`, `Musterfrau`, 21, `Female`,
 const nina = new Car(`Nina`, `Musterfrau`, 18, `Female`,
 `BMW`, `Z4`, `Z4 (E89)`, `35i sDrive`, 2010, 2013, `Cabriolet`, 2, 2, 250);
 
+const tom = new Car(`Tom`, `Mustermann`, 22, `Male`,
+`Nissan`, `Skyline`, `Skyline GT-R X (R34)`, `2.6 i 24V Turbo 4WD`, 1999, 2002, `Coupe`, 5, 2, 250);
+
+const mike = new Car(`Tom`, `Mustermann`, 28, `Male`,
+`Lotus`, `Elise`, `Elise (Series 1)`, `1.8 i 16v 111S`, 1997, 2000, `Roadster`, 2, 2, 213);
+
 // Create array with the objects
-const personsWithCars = [{name: nora}, {name: nina}];
+const personsWithCars = [{name: nora}, {name: nina}, {name: tom}, {name: mike}];
 
 // Amount of km's
 let km = 1000;
